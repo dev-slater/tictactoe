@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 5px; 
+    color: blue;
+}
+
+.title {
+text-align: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 3px ;
+}
+
+.box {
+    background: blanchedalmond;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: teal;
+  }
+
+  .reset-button{
+      background-color:grey;
+      border: 30px;
+  }
