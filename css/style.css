@@ -7,26 +7,26 @@
 }
 
 .title {
-text-align: center;
+text-align: justify;
 }
 
-.game-board {
+#game-board {
     display: grid;
     grid-template-rows: 200px 200px 200px;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 3px ;
+
 }
 
 .box {
     background: blanchedalmond;
     border: 1px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: teal;
+    text-align: center;
   }
 
   .reset-button{
       background-color:grey;
-      border: 30px;
+      border: 10px;
+      border-radius: 18px;
+      justify-content: center;
   }

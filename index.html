@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
     <script src="js/script.js" defer></script>
 </head>
 <body>
     <main>
         <h1 class="title">Let's Play Tic Tac Toe</h1>
-        <div class="game-board">
+        <h1 id="winner-message"></h1>
+        <h3 id="player-turn"> </h3>
+        <div id="game-board">
             <div class="box" id="sq-0"></div>
             <div class="box" id="sq-1"></div>
             <div class="box" id="sq-2"></div>
@@ -22,7 +28,8 @@
             <div class="box" id="sq-7"></div>
             <div class="box" id="sq-8"></div>
         </div>
-        <div>
+        
+        <div class="reset">
             <button class="reset-button">Reset Game</button>
         </div>
     </main>
